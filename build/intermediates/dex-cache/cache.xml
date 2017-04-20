@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="J:\GroupProject\app\libs\TabManager.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="25b6223c3d4b5b4df1b9f0a35427cc82b0cc890a">
+        <dex dex="J:\GroupProject\app\build\intermediates\transforms\dex\debug\folders\1000\2\TabManager_8d974879c05585541cfed0aefabd5e7489136df1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\GroupProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ad6b4b85c2ee39d3aabc2efa283ee45eba8a8fe1">
+        <dex dex="J:\GroupProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e1a4d70db825a1e9e1c78ce057a21085161c6f14\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\GroupProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="J:\GroupProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.1_30c6e849a06059d9c0a7b345bc6db8f74f251753\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Software\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="J:\GroupProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.0.1_25c538646e186b033df93800aa830d1c5161e685\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\GroupProject\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d602e6accad0abbefaa7492493531714f9b8f5a1">
+        <dex dex="J:\GroupProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_30ca95a781a7fc9f9ab5592c0eda8471a79d25c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="J:\GroupProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="J:\GroupProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.0.1_8f8a814f036546591e84fdc041806513ef07034d\classes.dex" />
+    </item>
+
+</items>
