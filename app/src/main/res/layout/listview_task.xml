@@ -26,14 +26,25 @@
         android:textStyle="bold" />
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dueTextView"
+        android:layout_below="@+id/nameTextView"
+        android:layout_alignRight="@+id/nameTextView"
+        android:layout_alignEnd="@+id/nameTextView"
+        android:text="@string/due_name"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
         android:id="@+id/notesTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/nameTextView"
-        android:layout_marginTop="-5dp"
-        android:layout_toRightOf="@+id/completedCheckBox"
         android:paddingBottom="7dp"
-        android:text="@string/task_notes" 
-        android:textColor="@android:color/black"/>
+        android:text="@string/task_notes"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/dueTextView"
+        android:layout_alignLeft="@+id/dueTextView"
+        android:layout_alignStart="@+id/dueTextView"/>
 
 </RelativeLayout>

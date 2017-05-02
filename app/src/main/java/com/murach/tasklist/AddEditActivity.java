@@ -22,6 +22,7 @@ implements OnKeyListener {
     
     private EditText nameEditText;
     private EditText notesEditText;
+    private EditText dueEditText;
     private Spinner listSpinner;
 
     private TaskListDB db;
@@ -34,14 +35,16 @@ implements OnKeyListener {
         setContentView(R.layout.activity_add_edit);
         
         // get references to widgets
-        listSpinner = (Spinner) findViewById(R.id.listSpinner);
-        nameEditText = (EditText) findViewById(R.id.nameEditText);
+        listSpinner   = (Spinner) findViewById(R.id.listSpinner);
+        nameEditText  = (EditText) findViewById(R.id.nameEditText);
         notesEditText = (EditText) findViewById(R.id.notesEditText);
+        dueEditText   = (EditText) findViewById(R.id.dueEditText);
 
         
         // set listeners
         nameEditText.setOnKeyListener(this);
         notesEditText.setOnKeyListener(this);
+        dueEditText.setOnKeyListener(this);
 
         // get the database object
         db = new TaskListDB(this);
@@ -106,6 +109,7 @@ implements OnKeyListener {
         int listID = listSpinner.getSelectedItemPosition() + 1;
         String name = nameEditText.getText().toString();
         String notes = notesEditText.getText().toString();
+        String due = dueEditText.getText().toString();
         
         // if no task name, exit method
         if (name == null || name.equals("")) {
@@ -121,6 +125,7 @@ implements OnKeyListener {
         task.setListId(listID);
         task.setName(name);
         task.setNotes(notes);
+        task.setDueDate(due);
         
         // update or insert task
         if (editMode) {

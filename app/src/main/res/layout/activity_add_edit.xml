@@ -19,10 +19,17 @@
     </EditText>
 
     <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/dueEditText"
+        android:hint="@string/due_text_hint"/>
+
+    <EditText
         android:id="@+id/notesEditText"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="0.85"
         android:gravity="top"
         android:hint="@string/task_notes_hint"
         android:inputType="textMultiLine" />

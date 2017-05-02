@@ -14,6 +14,7 @@ public class TaskLayout extends RelativeLayout implements OnClickListener {
     private CheckBox completedCheckBox;
     private TextView nameTextView;
     private TextView notesTextView;
+    private TextView dueTextView;
 
     private Task task;
     private TaskListDB db;
@@ -39,7 +40,8 @@ public class TaskLayout extends RelativeLayout implements OnClickListener {
         completedCheckBox = (CheckBox) findViewById(R.id.completedCheckBox);
         nameTextView = (TextView) findViewById(R.id.nameTextView);
         notesTextView = (TextView) findViewById(R.id.notesTextView);
-        
+        dueTextView = (TextView) findViewById(R.id.dueTextView);
+
         // set listeners
         completedCheckBox.setOnClickListener(this);
         this.setOnClickListener(this);
@@ -65,7 +67,15 @@ public class TaskLayout extends RelativeLayout implements OnClickListener {
         }
         else{
             completedCheckBox.setChecked(false);
-        }        
+        }
+
+        if (task.getDueDate() == null) {
+            dueTextView.setText("<Not Selected>");
+        }
+        else {
+            dueTextView.setText(task.getDueDate());
+        }
+
     }
 
     @Override

@@ -90,7 +90,7 @@ public class TaskListDB {
             
             // insert lists
             db.execSQL("INSERT INTO list VALUES (1, 'Personal')");
-            db.execSQL("INSERT INTO list VALUES (2, 'Business')");
+            db.execSQL("INSERT INTO list VALUES (2, 'School')");
             
             // insert sample tasks
             db.execSQL("INSERT INTO task VALUES (1, 1, 'Pay bills', " +

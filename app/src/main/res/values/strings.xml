@@ -5,9 +5,11 @@
     <!-- task list screen -->
     <string name="task_name">Assignment</string>
     <string name="task_notes">Assignment Details</string>
+    <string name="due_name">Due Date</string>
     
     <!-- add/edit screen -->
     <string name="task_name_hint">Assignment</string>
+    <string name="due_text_hint">Due Date</string>
     <string name="task_notes_hint">Assignment Details</string>
     <string name="completed">Completed</string>
     

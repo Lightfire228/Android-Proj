@@ -3,15 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="D:\Documents\Workspaces and Projects\Android Studio Projects\GroupProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8579197fa2c07303f30d3b6285cb0ec46f96ac43">
-        <dex dex="D:\Documents\Workspaces and Projects\Android Studio Projects\GroupProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f1c90fdebb4e30a1c0b6a98e6875f5dcf74d5bf7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\Documents\Workspaces and Projects\Android Studio Projects\GroupProject\app\libs\TabManager.jar"
         jumboMode="true"
         optimize="true"
@@ -34,8 +25,17 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="98f69920705ce95be7fee6edfff48ebdcc7f96f3">
+        sha1="413baf6b48a4730e4315f161798049c01503416a">
         <dex dex="D:\Documents\Workspaces and Projects\Android Studio Projects\GroupProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b7fd61c6a1f234a930646d6bcdc8c66f93dc7cff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\Workspaces and Projects\Android Studio Projects\GroupProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a31e176db3324bfdff9a3eff73ec58c8d56bb113">
+        <dex dex="D:\Documents\Workspaces and Projects\Android Studio Projects\GroupProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f1c90fdebb4e30a1c0b6a98e6875f5dcf74d5bf7\classes.dex" />
     </item>
     <item
         is-multidex="true"
