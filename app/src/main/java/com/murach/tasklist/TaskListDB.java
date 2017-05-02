@@ -40,12 +40,15 @@ public class TaskListDB {
     
     public static final String TASK_NOTES = "notes";
     public static final int    TASK_NOTES_COL = 3;
+
+    public static final String  TASK_DUE = "date_due";
+    public static final int     TAKE_DUE_COL = 4;
     
     public static final String TASK_COMPLETED = "date_completed";
-    public static final int    TASK_COMPLETED_COL = 4;
+    public static final int    TASK_COMPLETED_COL = 5;
 
     public static final String TASK_HIDDEN = "hidden";
-    public static final int    TASK_HIDDEN_COL = 5;
+    public static final int    TASK_HIDDEN_COL = 6;
     
     // CREATE and DROP TABLE statements
     public static final String CREATE_LIST_TABLE = 
@@ -58,7 +61,8 @@ public class TaskListDB {
             TASK_ID         + " INTEGER PRIMARY KEY AUTOINCREMENT, " + 
             TASK_LIST_ID    + " INTEGER, " + 
             TASK_NAME       + " TEXT, " + 
-            TASK_NOTES      + " TEXT, " + 
+            TASK_NOTES      + " TEXT, " +
+            TASK_DUE        + " TEXT, " +
             TASK_COMPLETED  + " TEXT, " + 
             TASK_HIDDEN     + " TEXT)";
 
@@ -221,7 +225,8 @@ public class TaskListDB {
                     cursor.getInt(TASK_ID_COL), 
                     cursor.getInt(TASK_LIST_ID_COL),
                     cursor.getString(TASK_NAME_COL), 
-                    cursor.getString(TASK_NOTES_COL), 
+                    cursor.getString(TASK_NOTES_COL),
+                    cursor.getString(TAKE_DUE_COL),
                     cursor.getString(TASK_COMPLETED_COL),
                     cursor.getString(TASK_HIDDEN_COL));
                 return task;
@@ -237,6 +242,7 @@ public class TaskListDB {
         cv.put(TASK_LIST_ID, task.getListId());
         cv.put(TASK_NAME, task.getName());
         cv.put(TASK_NOTES, task.getNotes());
+        cv.put(TASK_DUE, task.getDueDate());
         cv.put(TASK_COMPLETED, task.getCompletedDate());
         cv.put(TASK_HIDDEN, task.getHidden());
         
@@ -254,6 +260,7 @@ public class TaskListDB {
         cv.put(TASK_LIST_ID, task.getListId());
         cv.put(TASK_NAME, task.getName());
         cv.put(TASK_NOTES, task.getNotes());
+        cv.put(TASK_DUE, task.getDueDate());
         cv.put(TASK_COMPLETED, task.getCompletedDate());
         cv.put(TASK_HIDDEN, task.getHidden());
         

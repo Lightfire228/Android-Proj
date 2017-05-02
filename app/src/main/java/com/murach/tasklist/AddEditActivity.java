@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.View.OnKeyListener;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
 
@@ -36,6 +37,7 @@ implements OnKeyListener {
         listSpinner = (Spinner) findViewById(R.id.listSpinner);
         nameEditText = (EditText) findViewById(R.id.nameEditText);
         notesEditText = (EditText) findViewById(R.id.notesEditText);
+
         
         // set listeners
         nameEditText.setOnKeyListener(this);

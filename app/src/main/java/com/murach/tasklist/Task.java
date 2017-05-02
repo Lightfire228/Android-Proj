@@ -6,6 +6,7 @@ public class Task {
     private long listId;
     private String name;
     private String notes;
+    private String dueDate;
     private String completedDate;
     private String hidden;
     
@@ -19,21 +20,23 @@ public class Task {
         hidden = FALSE;
     }
 
-    public Task(int listId, String name, String notes,
+    public Task(int listId, String name, String notes, String due,
             String completed, String hidden) {
         this.listId = listId;
         this.name = name;
         this.notes = notes;
+        this.dueDate = due;
         this.completedDate = completed;
         this.hidden = hidden;
     }
 
-    public Task(int taskId, int listId, String name, String notes,
+    public Task(int taskId, int listId, String name, String notes, String due,
             String completed, String hidden) {
         this.taskId = taskId;
         this.listId = listId;
         this.name = name;
         this.notes = notes;
+        this.dueDate = due;
         this.completedDate = completed;
         this.hidden = hidden;
     }
@@ -69,6 +72,10 @@ public class Task {
     public void setNotes(String notes) {
         this.notes = notes;
     }
+
+    public String getDueDate() { return dueDate;}
+
+    public void setDueDate(String dueDate) {this.dueDate = dueDate;}
     
     public String getCompletedDate() {
         return completedDate;
