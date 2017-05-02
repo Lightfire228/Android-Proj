@@ -99,5 +99,6 @@ public class Task {
     
     public void setHidden(String hidden) {
         this.hidden = hidden;    
-    }    
+    }
+
 }

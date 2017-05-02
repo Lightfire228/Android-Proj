@@ -3,102 +3,57 @@
 
     <item
         is-multidex="true"
-        jar="C:\murach\android\Android-Proj-test\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="D:\Documents\Workspaces and Projects\Android Studio Projects\GroupProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="901cde9213275647f229c4e8849985eb7e7207d1">
-        <dex dex="C:\murach\android\Android-Proj-test\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5dda2fbb2fe1aab251a453cd16cf519cdcb5c70b\classes.dex" />
+        sha1="8579197fa2c07303f30d3b6285cb0ec46f96ac43">
+        <dex dex="D:\Documents\Workspaces and Projects\Android Studio Projects\GroupProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f1c90fdebb4e30a1c0b6a98e6875f5dcf74d5bf7\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\murach\android\Android-Proj-test\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jar="D:\Documents\Workspaces and Projects\Android Studio Projects\GroupProject\app\libs\TabManager.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="25b6223c3d4b5b4df1b9f0a35427cc82b0cc890a">
+        <dex dex="D:\Documents\Workspaces and Projects\Android Studio Projects\GroupProject\app\build\intermediates\transforms\dex\debug\folders\1000\2\TabManager_3e6d4096151221d2165a52784d12d15d129e1ea0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\Workspaces and Projects\Android Studio Projects\GroupProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="C:\murach\android\Android-Proj-test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.0.1_f1e1ace42f799c87486e269f04f0f5a48c511808\classes.dex" />
+        <dex dex="D:\Documents\Workspaces and Projects\Android Studio Projects\GroupProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.0.1_03a3927d458b2511f7dd3e280a2143038906e9d1\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\murach\android\Android-Proj-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jar="D:\Documents\Workspaces and Projects\Android Studio Projects\GroupProject\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="C:\murach\android\Android-Proj-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.0.1_45b303f5c99b861d673686764b092b68cf1fef3e\classes.dex" />
+        sha1="98f69920705ce95be7fee6edfff48ebdcc7f96f3">
+        <dex dex="D:\Documents\Workspaces and Projects\Android Studio Projects\GroupProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b7fd61c6a1f234a930646d6bcdc8c66f93dc7cff\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\madcap28\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jar="D:\Documents\Workspaces and Projects\Android Studio Projects\GroupProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="D:\Documents\Workspaces and Projects\Android Studio Projects\GroupProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.1_27c8618c6a9ce5ed7e1ef4d62c3b3acca2dbfe28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Software\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="C:\murach\android\Android-Proj-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.0.1_520b4e4149a81d35a3fc5bbcf2e87ec44438d99a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\murach\android\Android-Proj-test\app\libs\TabManager.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="25b6223c3d4b5b4df1b9f0a35427cc82b0cc890a">
-        <dex dex="C:\murach\android\Android-Proj-test\app\build\intermediates\transforms\dex\debug\folders\1000\2\TabManager_8d92a94e15bd1d9e1dd7dbbc1ef960c7c0d5b923\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\murach\android\Android-Proj-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="122d031112f3f4cb4709ca6210bcdbbb49f59566">
-        <dex dex="C:\murach\android\Android-Proj-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_30e80f6497d2cb652e1df88ad186148a5c1d88f6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\murach\android\Android-Proj-master\app\libs\TabManager.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="25b6223c3d4b5b4df1b9f0a35427cc82b0cc890a">
-        <dex dex="C:\murach\android\Android-Proj-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\TabManager_7ba9e96c894eaa5fa248a52ca9de403046ebfad5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\murach\android\Android-Proj-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="edc17deaed9b96a777c9b79b2d0b97d7e216bda4">
-        <dex dex="C:\murach\android\Android-Proj-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7174fb9b4bb6b46c2be600f8f6330c92a58a1693\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\murach\android\Android-Proj-test\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="b09fe7ac1d2ece9bc2702cde379395f894d94089">
-        <dex dex="C:\murach\android\Android-Proj-test\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3ec155cca407c3bfa30a0abde62b1a44f87d1cf8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\murach\android\Android-Proj-test\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="C:\murach\android\Android-Proj-test\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.1_6f9acc72817a8b6672feb46f588c92f3307bacd7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\murach\android\Android-Proj-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="C:\murach\android\Android-Proj-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.1_5159451f904916ee60633a6df36bd6b1bb9d443b\classes.dex" />
+        <dex dex="D:\Documents\Workspaces and Projects\Android Studio Projects\GroupProject\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.0.1_25c538646e186b033df93800aa830d1c5161e685\classes.dex" />
     </item>
 
 </items>

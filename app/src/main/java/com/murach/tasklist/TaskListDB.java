@@ -94,9 +94,9 @@ public class TaskListDB {
             
             // insert sample tasks
             db.execSQL("INSERT INTO task VALUES (1, 1, 'Pay bills', " +
-                    "'Rent\nPhone\nInternet', '0', '0')");
+                    "'Rent\nPhone\nInternet', NULL, '0', '0')");
             db.execSQL("INSERT INTO task VALUES (2, 1, 'Get hair cut', " +
-                    "'', '0', '0')");
+                    "'', NULL, '0', '0')");
         }
 
         @Override
